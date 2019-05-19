@@ -199,3 +199,16 @@ Updated	 :	10.22.2018
 .box p, h4 {
 	margin: 5px 20px 0 20px;
 }
+
+.txt-entry .button {
+	display: block;
+	max-width: 300px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.txt-entry p {
+	font-size: 18px !important;
+	font-weight: normal;
+}
