@@ -366,3 +366,28 @@ Updated	 :	10.22.2018
 .heading {
 	margin-bottom: 20px !important;
 }
+
+.news-image {
+	position:relative;
+}
+
+.quote-icon {
+	width: 40px !important;
+	margin-bottom: 20px !important;
+}
+
+.quotes h6 {
+	font-size: 1.3em;
+	margin-bottom: 20px;
+	color: #FA3821;
+}
+
+.quotes h6:hover {
+	color: #1F65DB;
+}
+
+.quotes blockquote {
+	font-size: 0.9em;
+	font-weight: 400;
+	margin-bottom: 20px;
+}
