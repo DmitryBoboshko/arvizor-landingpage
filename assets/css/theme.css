@@ -404,6 +404,10 @@ Updated	 :	10.22.2018
 	margin: 20px;
 }
 
+#bonus, #bonus .heading span  {
+	color: white;
+}
+
 .partners__partners-list {
 	display: flex;
 	flex-direction: row;
@@ -414,4 +418,90 @@ Updated	 :	10.22.2018
 
 .partners__header {
 	margin: 30px;
+}
+
+.ceo-section .section-head h2{
+	color: white;
+}
+
+.ceo-section {
+	color: white;
+	font-weight: 400;
+}
+
+.ceo-section a {
+	color: inherit;
+}
+
+.ceo-section a:hover {
+	color: #1F65DB;
+}
+
+.ceo-section em {
+	font-size: 0.9em;
+}
+
+.ceo__video-section {
+	margin: 30px 0;
+}
+
+.ceo__video-section__video {
+	position: relative;
+	padding-top: 25px;
+	height: 315px;
+	margin: 30px 0;
+}
+
+.ceo__video-section__video iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.ceo__button-holder {
+	margin: 30px 0;
+	display: flex;
+	justify-content: center;
+}
+
+#contact-form .button {
+	margin: 25px 0 0 0;
+}
+
+.contact-info {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-evenly;
+	margin: 0 0 20px 0;
+	padding: initial;
+}
+
+.contact-form {
+	max-width: 750px;
+	min-width: 550px;
+	min-height: 450px;
+}
+
+.contact-form__forms {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+#contacts .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.form-field {
+	margin-bottom: 10px;
+}
+
+#contacts .section-head {
+	margin-bottom: 10px;
 }
