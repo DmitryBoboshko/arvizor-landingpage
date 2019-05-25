@@ -143,9 +143,17 @@ Updated	 :	10.22.2018
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
-	justify-content: space-between;
-	align-content: center;
 	align-items: center;
+}
+
+.header-texts {
+	padding: initial;
+	flex-grow: 2;
+}
+
+.greek-head {
+	position: relative;
+	/* transform: rotate(4deg); */
 }
 
 @media screen and (min-width: 1200px) {
@@ -163,7 +171,7 @@ Updated	 :	10.22.2018
 		font-size: 30pt;
 		line-height: 1em;
 		color: #FFFFFF;
-		margin-bottom: 25px;
+		margin-bottom: 10px;
 	}
 	.header-content h3 {
 		display: block;
@@ -172,9 +180,6 @@ Updated	 :	10.22.2018
 		line-height: 1em;
 		color: #FFFFFF;
 		margin-bottom: 50px;
-	}
-	.greek-head {
-		transform: rotate(4deg);
 	}
 	.greek-head__pic {
 		height: 600px;
