@@ -670,7 +670,7 @@ label.error {
 .bg-gradiant.mfp-bg, .gradiant-background {
 	background-color: #8a46dd;
 	background-image: -o-linear-gradient(125deg, #85009d 0%, #e22a90 55%, #f90334 100%);
-	background-image: linear-gradient(125deg, #85009d 0%, #e22a90 55%, #f90334 100%);
+	background-image: linear-gradient(125deg, #85009d 0%, #e22a90 55%, #F90334 100%);
 }
 
 /* @v120 -s */
