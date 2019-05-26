@@ -181,6 +181,9 @@ Updated	 :	10.22.2018
 		height: 600px;
 		max-width: initial;
 	}
+	.txt-entry .button {
+		margin: 50px auto !important;
+	}
 	.box {
 		min-height: 315px;
 	}
@@ -207,6 +210,21 @@ Updated	 :	10.22.2018
 	.box {
 		min-height: 340px;
 	}
+	.flip-box{
+		width: 210px !important;
+		height: 210px !important;
+	}
+	.flip-box-back__title {
+		font-size: 1em !important;
+		margin-bottom: 0 !important;
+	}
+	.flip-box-back__text {
+		font-size: 0.8em !important;
+		font-weight: normal;
+	}
+	#aboutService .button {
+		width: 180px !important;
+	}
 	#news .item {
 		min-height: 510px !important;
 	}
@@ -231,6 +249,9 @@ Updated	 :	10.22.2018
 	.greek-head__pic {
 		/* height: 600px; */
 		max-width: 380px;
+	}
+	.txt-entry p {
+		margin-top: 20px !important;
 	}
 	.box {
 		min-height: 290px;
@@ -270,8 +291,22 @@ Updated	 :	10.22.2018
 		/* height: 600px; */
 		/* max-width: 380px; */
 	}
+	.flip-box-back__title {
+		font-size: 1.2em !important;
+		/* margin-bottom: 0 !important; */
+	}
+	.flip-box-back__text {
+		font-size: 1em !important;
+		font-weight: normal;
+	}
 	#news .item {
 		min-height: 500px !important;
+	}
+	#bonus .txt-entry {
+		margin-top: 20px;
+	}
+	.contact-form {
+		max-width: 90vw !important;
 	}
 }
 
@@ -304,12 +339,12 @@ Updated	 :	10.22.2018
 	display: block;
 	max-width: 300px;
 	margin: auto;
-	margin-top: 50px;
-	margin-bottom: 50px;
+	/* margin-top: 50px; */
+	/* margin-bottom: 50px; */
 }
 
 .txt-entry p {
-	font-size: 18px !important;
+	font-size: 24px !important;
 	font-weight: normal;
 }
 
@@ -462,12 +497,12 @@ Updated	 :	10.22.2018
 
 .section-head {
 	padding: initial;
-	margin: 40px 0 30px 0;
+	/* margin: 40px 0 30px 0; */
 }
 
 .section-head h2 {
-	font-size: 2.3em;
-	margin-bottom: 30px;
+	font-size: 3em;
+	margin: 30px auto;
 }
 
 .section-head h2 span {
@@ -559,9 +594,9 @@ Updated	 :	10.22.2018
 #bonus .txt-entry {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	height: 375px;
+	/* justify-content: center; */
+	/* align-items: center; */
+	/* height: 375px; */
 }
 
 #bonus .txt-entry a {
@@ -575,6 +610,7 @@ Updated	 :	10.22.2018
 .partners__partners-list {
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-evenly;
 	align-items: center;
 	padding-bottom: 30px;
@@ -582,14 +618,25 @@ Updated	 :	10.22.2018
 
 .partners__header {
 	margin: 30px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
 }
 
-.ceo-section .section-head h2 {
-	color: white;
+.ceo-section .section-head h2,
+.ceo__hello
+{
+	color: white !important;
+}
+
+.ceo__hello {
+	font-size: 1.9em;
 }
 
 .ceo-section {
 	color: white;
+	font-size: 1.2em;
 	font-weight: 400;
 }
 
@@ -607,6 +654,10 @@ Updated	 :	10.22.2018
 
 .ceo__video-section {
 	margin: 30px 0;
+}
+
+.ceo__video-section p {
+	margin: 20px 0;
 }
 
 .about__video, .howWorks__video, .bonus__video, .ceo__video-section__video {
@@ -649,7 +700,7 @@ Updated	 :	10.22.2018
 
 .contact-form {
 	max-width: 750px;
-	min-width: 550px;
+	width: 550px;
 	min-height: 450px;
 }
 

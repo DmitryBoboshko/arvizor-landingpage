@@ -475,7 +475,7 @@ blockquote {
 }
 
 .pt-80 {
-	padding-bottom: 80px;
+	padding-top: 80px;
 }
 
 .pb-90 {
@@ -1373,13 +1373,13 @@ label.error {
 		padding-bottom: 30px;
 	}
 	.pt-80 {
-		padding-bottom: 30px;
+		padding-top: 30px;
 	}
 	.pb-70 {
 		padding-bottom: 25px;
 	}
 	.pt-70 {
-		padding-bottom: 25px;
+		padding-top: 25px;
 	}
 	.pt-60 {
 		padding-top: 30px;
