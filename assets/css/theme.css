@@ -6,7 +6,7 @@ Updated	 :	10.22.2018
 */
 
 .active .steps h4, .heading span, .box-icon .fa, .box-icon .ti, .video-play, .video-play:hover, .video-play:focus, .owl-theme .owl-nav [class*=owl-], .single-features .ti, .single-features .fa, .contact-form h3, .contact-info h6 .fa, .footer-navigation li a:hover, .social-list li a:hover, .owl-theme .owl-nav [class*="owl-"]:hover, .footer-links li a:hover {
-	color: #1F65DB;
+	color:#ed355b;
 }
 
 .pricing-bottom .ti-check {
@@ -18,7 +18,7 @@ Updated	 :	10.22.2018
 }
 
 .owl-theme .owl-dots .owl-dot span:after, .affix .navbar-default .navbar-toggle, .affix .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	border-color: #1F65DB;
+	border-color: #ed355b;
 }
 
 .primary-bg {
@@ -30,15 +30,27 @@ Updated	 :	10.22.2018
 }
 
 .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span, .affix .navbar-default .navbar-toggle, .affix .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-	background: #1F65DB;
+	background: #ed355b;
 }
 
 .button {
-	background: #FA3821;
+	background: #ed355b;
 }
 
 .button:hover {
-	background: #1F65DB;
+	background: #fff;
+	color: #ed355b;
+}
+
+.ceo__button-holder .button {
+	background: #fff;
+	color: #ed355b;
+}
+
+.ceo__button-holder .button:hover {
+	background: #85009d;
+	color: #fff;
+
 }
 
 .header-texts .button {
@@ -130,7 +142,7 @@ Updated	 :	10.22.2018
 
 @media only screen and (max-width: 991px) {
 	.navbar-default .in .navbar-nav>li>a:hover, .navbar-default .in .navbar-nav>li>a:focus, .affix .navbar-default .navbar-nav>li>a:hover, .affix .navbar-default .navbar-nav>li>a:focus, .affix .navbar-default .navbar-nav>.active>a, .affix .navbar-default .navbar-nav>.active>a:hover, .affix .navbar-default .navbar-nav>.active>a:focus {
-		background: #1F65DB;
+		background: #ed355b;
 	}
 }
 
@@ -453,7 +465,7 @@ Updated	 :	10.22.2018
 
 .flip-box-back .button:hover {
 	color: white;
-	background: #1F65DB;
+	background: #666666;
 }
 
 .features-content {
@@ -722,4 +734,12 @@ Updated	 :	10.22.2018
 
 #contacts .section-head {
 	margin-bottom: 10px;
+}
+
+.news-link {
+	color: #666666;
+}
+
+.news-link:hover {
+	color: #ed355b;
 }
