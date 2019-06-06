@@ -180,12 +180,12 @@ Updated	 :	10.22.2018
 		margin-bottom: 25px;
 	}
 	.header-content h2 {
-		font-weight: 400;
+		font-weight: 500;
 		font-size: 30pt;
 		margin-bottom: 10px;
 	}
 	.header-content h3 {
-		font-weight: 300;
+		font-weight: 400;
 		font-size: 23.7pt;
 		margin-bottom: 50px;
 	}
@@ -582,6 +582,10 @@ Updated	 :	10.22.2018
 	min-height: 80px;
 }
 
+.item__header h3 {
+    font-weight: 500;
+}
+
 .quote-icon {
 	width: 40px !important;
 	margin-bottom: 20px !important;
@@ -636,14 +640,13 @@ Updated	 :	10.22.2018
 	justify-content: center;
 }
 
-.ceo-section .section-head h2,
-.ceo__hello
-{
+.ceo-section .section-head h2, .ceo__hello {
 	color: white !important;
 }
 
 .ceo__hello {
 	font-size: 1.9em;
+    font-weight: 400;
 }
 
 .ceo-section {
@@ -657,7 +660,7 @@ Updated	 :	10.22.2018
 }
 
 .ceo-section a:hover {
-	color: #1F65DB;
+	color: #FA3821;
 }
 
 .ceo-section em {

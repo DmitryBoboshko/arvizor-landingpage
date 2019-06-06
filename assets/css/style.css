@@ -515,7 +515,7 @@ blockquote {
 	padding: 13px 15px;
 	color: #666;
 	background: #fff;
-	border: 1px solid #eee;
+	border: 1px solid #dbdbdb;
 	border-radius: 8px;
 	box-shadow: none;
 	-webkit-transition: all .5s ease;
@@ -532,7 +532,7 @@ blockquote {
 }
 
 .form-control:focus {
-	border-color: #cecece;
+	border-color: #e0486e;
 	box-shadow: none;
 }
 
@@ -636,6 +636,10 @@ label.error {
 
 .heading-light {
 	color: #fff;
+}
+
+.heading {
+	font-weight: 500;
 }
 
 /* @v120 -s */
